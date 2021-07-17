@@ -8,7 +8,6 @@ import reducer  from './reducers'
 
 import App from './components/App.js';
 import reportWebVitals from './reportWebVitals';
-import { importSpecifier } from '@babel/types';
 
 const store = createStore(reducer)
 
